@@ -1,6 +1,6 @@
 cask "meepo" do
-  version "0.1.0-beta"
-  sha256 "6b932d66a009c5f3d6d19789b99681c68b54733450508e6ab08bd19d43559a19"
+  version "0.1.1-beta"
+  sha256 "bb0475cb87b43dc1beee4adfdb64039932d09f583a4e001d1078c9aa135a6397"
 
   url "https://github.com/Azamatfg/meepo/releases/download/v#{version}/Meepo.zip"
   name "Meepo"
@@ -10,6 +10,7 @@ cask "meepo" do
   depends_on macos: :sonoma
 
   app "Meepo.app"
+  binary "#{appdir}/Meepo.app/Contents/Resources/meepo"
 
   zap trash: [
     "~/.meepo",
