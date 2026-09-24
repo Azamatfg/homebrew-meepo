@@ -4,6 +4,7 @@ Homebrew tap for [Meepo](https://github.com/Azamatfg/meepo) — one window for a
 
 ```bash
 brew tap azamatfg/meepo
+brew trust azamatfg/meepo     # newer Homebrew asks once for third-party taps
 brew install --cask meepo
 ```
 
