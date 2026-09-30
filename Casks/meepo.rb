@@ -1,6 +1,6 @@
 cask "meepo" do
-  version "0.7.2"
-  sha256 "0cedd0cb4b1af3cb95e292bc36c78d406f05234fee3bafdb49dd8d5c5162b485"
+  version "0.7.3"
+  sha256 "f02e2aff6d556ebdcecd29d127d023d9e4735edf5fbe3de4e5c8f3188b58bf02"
 
   url "https://github.com/Azamatfg/meepo/releases/download/v#{version}/Meepo.zip"
   name "Meepo"
